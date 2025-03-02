@@ -8,6 +8,7 @@ body{
     background-image: url(IMG/img01.png) ;
     background-position: center;
     
+    
 }
 .fundo{
     position:absolute;
@@ -20,14 +21,15 @@ body{
 
 .CorpoSite{
     background-image: url(IMG/img01.png);
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     border-radius: 20px;
     border: 2px solid white;
     color: white;
     width: 90%;
-    margin-top: 40px;
-    margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
     
@@ -112,7 +114,6 @@ body{
     font-size: 20px;
 }
 /*Fechamento das configs do meu MENU*/
-
 
 /*Fechamento da parte de cima do meu site Header*/
 
