@@ -78,7 +78,21 @@ body{
     border: 2px solid white;
     border-radius: 10px;
     padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
     margin: 20px;
+}
+.menu nav:hover{
+    background-color: black;
+    margin-top: 30px;
+    transition: 0.2s ;
+    transform: scale(1.1) ;
+}
+.menu a:hover{
+    color: red;
+    font-weight: 600;
+    font-size: 25px;
+    transition: 0.2s;
 }
 .menu ul{
     list-style: none;
@@ -87,6 +101,7 @@ body{
     text-align: center;
 }
 .menu a{
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     color: white;
     font-weight: 600;
