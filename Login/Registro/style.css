@@ -118,7 +118,7 @@ body{
 
 /*Modelo Para Celular*/
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
     .casa{
         background-image: url(/IMG/img01.png);
         position: absolute;
