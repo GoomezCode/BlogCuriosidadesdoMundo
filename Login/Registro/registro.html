@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--Links de Fonts e icons-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--Fechamento de Fonts-->
+    <link rel="stylesheet" href="StyleRegistro.css">
+
     <title>Page | Registro</title>
 </head>
 <body>
+    <div class="fundo"></div>
     
+    
+    <div class="containerRegistro">
+       
+        <div class="iconUser">
+            <i class='bx bxs-user-circle'></i>
+        </div>
+        
+            <div class="ItemContainer">
+                <nav class="inputCadastro">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </nav>
+                
+                <nav class="inputCadastro">
+                    <input type="text" placeholder="User Name">
+                    <input type="text" placeholder="joão@gmail.com">
+                </nav>
+
+                <nav class="inputCadastro">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                </nav>
+
+                <nav class="buttonConfirme">
+                    <button><a href="/Inicial.html">Confirme o Registro</a></button>
+                </nav>
+
+
+                <nav class="proximaPage">
+                    <span>Já tem um Login? <a href="index.html">Aperte aqui!</a></span>
+                    <br>
+                    <span>Quer Continuar sem login? <a href="/Inicial.html">Aperte aqui!</a></span>
+                </nav>
+            </div>
+        </div>     
 </body>
 </html>
